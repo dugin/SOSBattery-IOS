@@ -7,16 +7,53 @@
 //
 
 import UIKit
+import Firebase
+import GoogleMaps
+import CoreLocation
+import UIColor_Hex_Swift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
      var window: UIWindow?
-
-
+     var myLocation: CLLocation?
+     var estArray = [Estabelecimento]()
+    
      func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+          
+          FIRApp.configure()
+          
+          GMSServices.provideAPIKey("AIzaSyDSl1eCNy-zM_q4puQLaDtoAmXl98CTK_w")
+          
+          FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+          
+          
+          if FBSDKAccessToken.currentAccessToken() != nil{
+               self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+               
+               let storyboard = UIStoryboard(name: "Main", bundle: nil)
+
+          
+          let initialViewController = storyboard.instantiateViewControllerWithIdentifier("TabControllerIdentifier") as! UITabBarController
+          
+          self.window?.rootViewController = initialViewController
+          self.window?.makeKeyAndVisible()
+          
+          }
+          
+          
+
+          UITabBar.appearance().barTintColor = UIColor(rgba: "#589E3F")
+           UITabBar.appearance().tintColor = UIColor.whiteColor()
+          
           // Override point for customization after application launch.
           return true
+     
+    }
+     
+   
+     func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+          return FBSDKApplicationDelegate.sharedInstance().application(application, openURL: url, sourceApplication: sourceApplication, annotation: annotation)
      }
 
      func applicationWillResignActive(application: UIApplication) {

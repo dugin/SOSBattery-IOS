@@ -7,21 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0320AF95A1180A489AF9614F /* Pods_SOSBattery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7143DDFD95C417D0C935DC1 /* Pods_SOSBattery.framework */; };
+		310245361D384E55007A872B /* InfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310245351D384E55007A872B /* InfoWindow.swift */; };
+		310245401D386713007A872B /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3102453F1D386713007A872B /* InfoWindow.xib */; };
+		31045FC21D337550003DEBDC /* Estabelecimento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31045FC11D337550003DEBDC /* Estabelecimento.swift */; };
+		31045FC41D337621003DEBDC /* Cabo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31045FC31D337621003DEBDC /* Cabo.swift */; };
 		31589ADF1D2EFC91004C86DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31589ADE1D2EFC91004C86DB /* AppDelegate.swift */; };
-		31589AE11D2EFC91004C86DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31589AE01D2EFC91004C86DB /* ViewController.swift */; };
+		31589AE11D2EFC91004C86DB /* LoginFBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31589AE01D2EFC91004C86DB /* LoginFBController.swift */; };
 		31589AE41D2EFC91004C86DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31589AE21D2EFC91004C86DB /* Main.storyboard */; };
 		31589AE61D2EFC91004C86DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31589AE51D2EFC91004C86DB /* Assets.xcassets */; };
 		31589AE91D2EFC91004C86DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31589AE71D2EFC91004C86DB /* LaunchScreen.storyboard */; };
+		3196E5431D2EFF52004628D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3196E5421D2EFF52004628D1 /* GoogleService-Info.plist */; };
+		31C54FC31D2F82E8008B5326 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C54FC21D2F82E8008B5326 /* CoreLocation.framework */; };
+		31C54FD01D2F8891008B5326 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C54FCD1D2F8891008B5326 /* FBSDKCoreKit.framework */; };
+		31C54FD11D2F8891008B5326 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C54FCE1D2F8891008B5326 /* FBSDKLoginKit.framework */; };
+		31C54FD21D2F8891008B5326 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C54FCF1D2F8891008B5326 /* FBSDKShareKit.framework */; };
+		31E5AEE41D31D84100F405F8 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5AEE31D31D84100F405F8 /* CustomCell.swift */; };
+		31F8F89A1D30425800A9D80F /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F8F8991D30425800A9D80F /* TabController.swift */; };
+		31F8F89C1D3063E700A9D80F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F8F89B1D3063E700A9D80F /* MapViewController.swift */; };
+		31F8F8A01D30704B00A9D80F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F8F89F1D30704B00A9D80F /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		310245351D384E55007A872B /* InfoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoWindow.swift; sourceTree = "<group>"; };
+		3102453F1D386713007A872B /* InfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoWindow.xib; sourceTree = "<group>"; };
+		31045FC11D337550003DEBDC /* Estabelecimento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Estabelecimento.swift; sourceTree = "<group>"; };
+		31045FC31D337621003DEBDC /* Cabo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cabo.swift; sourceTree = "<group>"; };
 		31589ADB1D2EFC91004C86DB /* SOSBattery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOSBattery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31589ADE1D2EFC91004C86DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31589AE01D2EFC91004C86DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31589AE01D2EFC91004C86DB /* LoginFBController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFBController.swift; sourceTree = "<group>"; };
 		31589AE31D2EFC91004C86DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31589AE51D2EFC91004C86DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31589AE81D2EFC91004C86DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31589AEA1D2EFC91004C86DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3196E5421D2EFF52004628D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31C54FC21D2F82E8008B5326 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		31C54FC41D2F8519008B5326 /* SOSBattery-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOSBattery-Bridging-Header.h"; sourceTree = "<group>"; };
+		31C54FCD1D2F8891008B5326 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		31C54FCE1D2F8891008B5326 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		31C54FCF1D2F8891008B5326 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		31E5AEE31D31D84100F405F8 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		31F8F8991D30425800A9D80F /* TabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		31F8F89B1D3063E700A9D80F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		31F8F89F1D30704B00A9D80F /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		53E2CD91A596A577CD66CA2D /* Pods-SOSBattery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOSBattery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SOSBattery/Pods-SOSBattery.debug.xcconfig"; sourceTree = "<group>"; };
+		F7143DDFD95C417D0C935DC1 /* Pods_SOSBattery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOSBattery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FA70DC7D79FE382C32C306 /* Pods-SOSBattery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOSBattery.release.xcconfig"; path = "Pods/Target Support Files/Pods-SOSBattery/Pods-SOSBattery.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C54FC31D2F82E8008B5326 /* CoreLocation.framework in Frameworks */,
+				31C54FD01D2F8891008B5326 /* FBSDKCoreKit.framework in Frameworks */,
+				31C54FD21D2F8891008B5326 /* FBSDKShareKit.framework in Frameworks */,
+				31C54FD11D2F8891008B5326 /* FBSDKLoginKit.framework in Frameworks */,
+				0320AF95A1180A489AF9614F /* Pods_SOSBattery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +76,8 @@
 			children = (
 				31589ADD1D2EFC91004C86DB /* SOSBattery */,
 				31589ADC1D2EFC91004C86DB /* Products */,
+				762FFF6B5F4C4840C61504E0 /* Pods */,
+				39651DB359A5A55D4EB03F14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,45 @@
 		31589ADD1D2EFC91004C86DB /* SOSBattery */ = {
 			isa = PBXGroup;
 			children = (
+				3196E5421D2EFF52004628D1 /* GoogleService-Info.plist */,
 				31589ADE1D2EFC91004C86DB /* AppDelegate.swift */,
-				31589AE01D2EFC91004C86DB /* ViewController.swift */,
+				31F8F89F1D30704B00A9D80F /* ListViewController.swift */,
+				31045FC11D337550003DEBDC /* Estabelecimento.swift */,
+				31045FC31D337621003DEBDC /* Cabo.swift */,
+				31589AE01D2EFC91004C86DB /* LoginFBController.swift */,
+				31F8F8991D30425800A9D80F /* TabController.swift */,
 				31589AE21D2EFC91004C86DB /* Main.storyboard */,
+				31E5AEE31D31D84100F405F8 /* CustomCell.swift */,
+				31F8F89B1D3063E700A9D80F /* MapViewController.swift */,
+				310245351D384E55007A872B /* InfoWindow.swift */,
 				31589AE51D2EFC91004C86DB /* Assets.xcassets */,
 				31589AE71D2EFC91004C86DB /* LaunchScreen.storyboard */,
 				31589AEA1D2EFC91004C86DB /* Info.plist */,
+				31C54FC41D2F8519008B5326 /* SOSBattery-Bridging-Header.h */,
+				3102453F1D386713007A872B /* InfoWindow.xib */,
 			);
 			path = SOSBattery;
+			sourceTree = "<group>";
+		};
+		39651DB359A5A55D4EB03F14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31C54FCD1D2F8891008B5326 /* FBSDKCoreKit.framework */,
+				31C54FCE1D2F8891008B5326 /* FBSDKLoginKit.framework */,
+				31C54FCF1D2F8891008B5326 /* FBSDKShareKit.framework */,
+				31C54FC21D2F82E8008B5326 /* CoreLocation.framework */,
+				F7143DDFD95C417D0C935DC1 /* Pods_SOSBattery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		762FFF6B5F4C4840C61504E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53E2CD91A596A577CD66CA2D /* Pods-SOSBattery.debug.xcconfig */,
+				F9FA70DC7D79FE382C32C306 /* Pods-SOSBattery.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31589AED1D2EFC91004C86DB /* Build configuration list for PBXNativeTarget "SOSBattery" */;
 			buildPhases = (
+				A98FE8B4B94C369E0D92945F /* [CP] Check Pods Manifest.lock */,
 				31589AD71D2EFC91004C86DB /* Sources */,
 				31589AD81D2EFC91004C86DB /* Frameworks */,
 				31589AD91D2EFC91004C86DB /* Resources */,
+				AFAA7229FE41B2C71C0DDF61 /* [CP] Embed Pods Frameworks */,
+				8DA5B43600134B5C6B5982C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +195,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				31589AE91D2EFC91004C86DB /* LaunchScreen.storyboard in Resources */,
+				310245401D386713007A872B /* InfoWindow.xib in Resources */,
+				3196E5431D2EFF52004628D1 /* GoogleService-Info.plist in Resources */,
 				31589AE61D2EFC91004C86DB /* Assets.xcassets in Resources */,
 				31589AE41D2EFC91004C86DB /* Main.storyboard in Resources */,
 			);
@@ -130,13 +204,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DA5B43600134B5C6B5982C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SOSBattery/Pods-SOSBattery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A98FE8B4B94C369E0D92945F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAA7229FE41B2C71C0DDF61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SOSBattery/Pods-SOSBattery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31589AD71D2EFC91004C86DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31589AE11D2EFC91004C86DB /* ViewController.swift in Sources */,
+				31589AE11D2EFC91004C86DB /* LoginFBController.swift in Sources */,
+				31F8F89A1D30425800A9D80F /* TabController.swift in Sources */,
+				31045FC41D337621003DEBDC /* Cabo.swift in Sources */,
 				31589ADF1D2EFC91004C86DB /* AppDelegate.swift in Sources */,
+				31F8F8A01D30704B00A9D80F /* ListViewController.swift in Sources */,
+				310245361D384E55007A872B /* InfoWindow.swift in Sources */,
+				31E5AEE41D31D84100F405F8 /* CustomCell.swift in Sources */,
+				31045FC21D337550003DEBDC /* Estabelecimento.swift in Sources */,
+				31F8F89C1D3063E700A9D80F /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,23 +376,38 @@
 		};
 		31589AEE1D2EFC91004C86DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E2CD91A596A577CD66CA2D /* Pods-SOSBattery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SOSBattery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eliteApps.SOSBattery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SOSBattery/SOSBattery-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		31589AEF1D2EFC91004C86DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FA70DC7D79FE382C32C306 /* Pods-SOSBattery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SOSBattery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eliteApps.SOSBattery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SOSBattery/SOSBattery-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +430,7 @@
 				31589AEF1D2EFC91004C86DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
